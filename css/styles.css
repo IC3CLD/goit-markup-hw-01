@@ -1,0 +1,144 @@
+:root {
+    --titles-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --secondary-fone-color: #F5F4FA;
+    --white-color: #FFFFFF;
+    --footer-background-color: #2F303A;
+    --sochial-networks-bachground: rgba(255, 255, 255, 0.1);
+    --text--background: rgba(47, 48, 58, 0.8);
+    --team-label-background: #AFB1B8;
+
+}
+
+body {
+    color: var(--titles-text-color);
+    background-color: #FFFFFF;
+}
+
+/*
+ul {
+    list-style: none;
+} 
+ */
+
+.list {
+    list-style: none;
+}
+
+.label {
+    list-style: none
+}
+
+
+.logo {
+    color: var(--titles-text-color);
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--titles-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color:  var(--accent-color);
+}
+
+/* header contacts */
+
+.header-contacts a {
+    color: var(--text-color);
+}
+
+.header-contacts a:hover,
+.header-contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+/* button */
+
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+/* features */
+
+.features-atention .text {
+    color: var(--text-color);
+}
+
+.features-items .pictures {
+    background-color: var(--secondary-fone-color);
+}
+
+/* activities */
+
+.activities-items .link {
+    color: var(--white-color);
+    background-color: var(--text--background);
+}
+
+/* team */
+
+.team {
+    background-color: var(--secondary-fone-color);
+}
+
+.card h3 {
+    color: var(--titles-text-color);
+} 
+
+.card p {
+    color: var(--text-color);
+}
+
+.team-items .label {
+    background-color: var(--team-label-background);
+}
+
+/* clients */
+
+.clients-logo {
+    list-style: none
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--footer-background-color);
+}
+
+
+
+.footer-contacts a {
+    color: var(--text-color);
+}
+
+.footer .logo {
+    color: var(--white-color);
+}
+
+.footer-text {
+    color: var(-);
+}
+
+footer {
+    color: var(--white-color);
+}
+
+.footer .label {
+    background-color: var(--sochial-networks-bachground);
+}
+
+.footer .label a {
+    color: var(--white-color);
+}
